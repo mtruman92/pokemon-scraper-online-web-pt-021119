@@ -40,7 +40,7 @@ describe "Pokemon" do
     end
   end
 
- =begin describe "BONUS" do
+  describe "BONUS" do
 
     before do
       @sql_runner.execute_create_hp_column
@@ -71,5 +71,4 @@ describe "Pokemon" do
       expect(Pokemon.find(2, @db).hp).to eq(0)
     end
  end
-=end
 end
