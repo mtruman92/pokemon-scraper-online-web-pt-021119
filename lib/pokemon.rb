@@ -26,6 +26,7 @@ class Pokemon
     name = pokemon[1]
     type = pokemon [2]
     
+    
   end
   
 end
