@@ -9,7 +9,6 @@ class Pokemon
     @name = name 
     @type = type
     @db = db
-    @hp = hp
     @@all << self
   end
   
@@ -23,11 +22,7 @@ class Pokemon
   
   def self.find(id,db)
     pokemon = db.execute("SELECT * FROM pokemon WHERE id = ?" , id).flatten
-    id = pokemon[0]
-    name = pokemon[1]
-    type = pokemon [2]
-    
-    
+   return self.new(id: id, name: name, type: type, db: db)
   end
   
 end
