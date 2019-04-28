@@ -1,6 +1,6 @@
 class Pokemon
   
-  attr_accessor :id, :name, :type, :db
+  attr_accessor :id, :name, :type, :db, :hp
   
   @@all = []
   
@@ -9,6 +9,7 @@ class Pokemon
     @name = name 
     @type = type
     @db = db
+    @hp = hp
     @@all << self
   end
   
