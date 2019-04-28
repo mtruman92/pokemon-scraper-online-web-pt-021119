@@ -40,6 +40,7 @@ describe "Pokemon" do
     end
   end
 
+=begin
   describe "BONUS" do
 
     before do
