@@ -4,4 +4,4 @@
 CREATE TABLE pokemon (
 id INTEGER,
 name TEXT, 
-type TEXT;)
+type TEXT);
